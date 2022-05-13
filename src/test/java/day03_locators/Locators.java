@@ -1,6 +1,7 @@
 package day03_locators;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -35,13 +36,12 @@ public class Locators {
         driver.get("http://a.testaddressbook.com ");
 
         //    b. Sign in butonuna basin
-
         WebElement singLinki = driver.findElement(By.linkText("Sign in"));
         singLinki.click();
 
+
         //    c. email textbox,password textbox, and signin button elementlerini locate ediniz..
         WebElement emailTextBox = driver.findElement(By.id("session_email"));
-
         WebElement passwordTextBox = driver.findElement(By.name("session[password]"));
         WebElement singInButonu = driver.findElement(By.name("commit"));
 
