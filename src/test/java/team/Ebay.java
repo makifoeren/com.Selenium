@@ -39,9 +39,7 @@ public class Ebay {
                 "21-Gang Vollfederung Scheibenbremsen']"));
 
 
-        WebElement ilkUrunResmi = urunResimListesi.get(0);
-        System.out.println(ilkUrunResmi.getText());
-
+        WebElement ilkUrunResmi = urunResimListesi.get(0); // cikan sonuclari listeye koyduktan sonra ilk elemti aliyoruz
         ilkUrunResmi.click();
 
         driver.quit();
