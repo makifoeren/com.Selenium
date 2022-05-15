@@ -20,7 +20,9 @@ public class C02_CssSelector {
         //  a. Verilen web sayfasına gidin. http://a.testaddressbook.com/sign_in
         driver.get("http://a.testaddressbook.com/sign_in");
 
-        //  b. Locate email textbox #session_password
+
+
+//  b. Locate email textbox #session_password
         WebElement mailTextBox = driver.findElement(By.cssSelector("#session_email"));
 
         //  c. Locate password textbox ve
@@ -38,8 +40,6 @@ public class C02_CssSelector {
         signInButonu.click();
 
         driver.close();
-
-
     }
 
 
