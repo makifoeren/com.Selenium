@@ -91,6 +91,7 @@ public class Locators {
         //Linkleri yazdiralim
         // Listemiz webelementlerden olustugu icin, direk yazdirirsak referanslari yazdirir
         // onun yerine for-each loop yapip her bir link webelementinin uzerindeki yaziyi yazdirmaliyiz
+
         for (WebElement each:linklerListesi
         ) {
             System.out.println(each.getText());
