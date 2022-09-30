@@ -12,7 +12,7 @@ public class C01_DriverMethodlar {
 
         driver.get("https://www.siirt.edu.tr");
 
-        // 1. method icinde olunan sayfanin basligini String olarak getirir
+        // 1. method icinde olunan sayfanin basligini String olarak getirir..
         System.out.println("actual Titel : "+ driver.getTitle()); //actual Titel : Siirt Üniversitesi bilimin ışığında
 
         //2. method string url ye gider
