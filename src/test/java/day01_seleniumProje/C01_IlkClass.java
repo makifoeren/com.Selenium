@@ -10,7 +10,7 @@ public class C01_IlkClass {
          en ilkel haliilebir otomsayon yapmak icin
          class imiza otomasyon icin gerekli olan webdriver in yerini gostermemiz gerelir
          bunu icin java kutuphansin de System.setProperty() methodunu kullaniriz
-         method 2 parametre istemektedir
+         method 2 parametre istemektedir...
          ilki kullanacagimiz driver : webdriver.chrome.driver
          ikincisi bu driver in fiziki yolu : src/resources/drivers/chromedriver.exe
          */
